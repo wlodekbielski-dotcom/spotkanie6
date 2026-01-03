@@ -15,3 +15,16 @@ jobs:
       # Krok 2: Uruchomienie walidatora linków
       - name: Check links in README
         uses: gaurav-nelson/github-action-markdown-link-check@v1
+
+  # ZADANIE 2: Sprawdzanie składni (NOWOŚĆ)
+  syntax-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Markdown Lint
+        # Używamy gotowego lintera
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: "**/*.md"
