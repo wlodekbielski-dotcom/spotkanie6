@@ -8,5 +8,5 @@ Repozytorium szkoleniowe do nauki GitHub Actions.
 2. [Poprawiony link](https://www.google.com)
 
 ## Nowa sekcja (Test Lintera)
--Punkt pierwszy (brak spacji po myślniku to błąd w Markdown!)
--Punkt drugi
+- Punkt pierwszy (brak spacji po myślniku to błąd w Markdown!)
+- Punkt drugi
